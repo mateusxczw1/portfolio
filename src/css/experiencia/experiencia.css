@@ -1,6 +1,15 @@
 .experiencia {
+  display: none;
+}
+
+.experiencia.active {
+  display: flex;
+}
+
+.experiencia {
   display: flex;
   flex-wrap: wrap;
+  gap: 20px;
   flex-direction: column;
   gap: 20px;
 }

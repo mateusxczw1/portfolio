@@ -1,18 +1,22 @@
 /* Global */
 
-@import '/src/css/global/reset.css';
-@import '/src/css/global/global.css';
-@import '/src/css/global/animation.css';
-@import '/src/css/global/colors.css';
+@import url('/src/css/global/reset.css');
+@import url('/src/css/global/global.css');
+@import url('/src/css/global/animation.css');
+@import url('/src/css/global/colors.css');
 
 /* Header */
 
-@import '/src/css/header/header.css';
+@import url('/src/css/header/header.css');
 
 /* Experiência */
 
-@import '/src/css/experiencia/experiencia.css';
+@import url('/src/css/experiencia/experiencia.css');
 
-/* Formaçaõ */
+/* Formação */
 
-@import '/src/css/formacao/formacao.css';
+@import url('/src/css/formacao/formacao.css');
+
+/* Footer */
+
+@import url('/src/css/footer/footer.css');

@@ -8,7 +8,7 @@
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="src/imgs/logo.svg" type="svg/xml+" />
-    <link rel="stylesheet" href="/src/css/style.css" />
+    <link rel="stylesheet" href="/src/css/style.min.css" />
     <title>Mateus - Dev</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -30,9 +30,9 @@
 
     <header class="header container">
       <div class="header-buttons">
-        <button id="experiencia">Experiência</button>
-        <button id="formacao">Formação</button>
-        <button id="contato">Contato</button>
+        <button id="experiencia" class="experiencia-btn">Experiência</button>
+        <button id="formacao" class="formacao-btn">Formação</button>
+        <!-- <button id="contato">Contato</button> -->
       </div>
       <div class="header-intro">
         <main class="perfil">
@@ -47,7 +47,7 @@
           <span class="header-region">Belford Roxo, RJ</span>
         </main>
 
-        <section class="experiencia">
+        <section class="experiencia tab-js">
           <h2 class="experiencia-title">Experiência</h2>
           <p class="experiencia-text">
             Desenvolvo pequenos projetos como o Bikcraft utilizando
@@ -77,8 +77,7 @@
             </li>
           </ul>
         </section>
-
-        <section class="formacao" id="formacao" aria-label="Formação">
+        <section class="formacao tab-js" id="formacao" aria-label="Formação">
           <div class="formacao-container">
             <h2 class="experiencia-title">Formação</h2>
 
@@ -138,6 +137,33 @@
           </div>
         </section>
       </div>
+      <footer class="footer">
+        <p>Mateus. Alguns Direitos Reservados</p>
+        <ul class="redes">
+          <li>
+            <a href="https://github.com/mateusxczw1" target="_blank">
+              <img
+                src="src/imgs/github.png"
+                width="40"
+                height="40"
+                alt="Github"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="www.linkedin.com/in/mateuscardozodev1 " target="_blank">
+              <img
+                src="src/imgs/linkedin.png"
+                width="40"
+                height="40"
+                alt="Linkedin"
+              />
+            </a>
+          </li>
+        </ul>
+      </footer>
     </header>
+
+    <script src="src/js/script.js"></script>
   </body>
 </html>
