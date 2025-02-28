@@ -1,0 +1,46 @@
+.header-buttons {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  justify-items: center;
+  writing-mode: sideways-lr;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: auto 2fr;
+  gap: 50px;
+}
+
+.header-title,
+.header-text {
+  font-size: 4rem;
+  font-family: 'Rubik';
+  font-weight: bold;
+  color: var(--white2);
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.header-text {
+  color: var(--white0);
+}
+
+.header-region {
+  font-size: 1.25rem;
+  font-family: 'Rubik';
+  font-weight: bold;
+  color: var(--white2);
+}
+
+.header-intro {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 40px;
+}
+
+.perfil {
+  background-color: var(--black0);
+  padding: 60px;
+  border-radius: 8px;
+}

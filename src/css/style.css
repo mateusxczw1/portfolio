@@ -1,0 +1,14 @@
+/* Global */
+
+@import '/src/css/global/reset.css';
+@import '/src/css/global/global.css';
+@import '/src/css/global/animation.css';
+@import '/src/css/global/colors.css';
+
+/* Header */
+
+@import '/src/css/header/header.css';
+
+/* Experiência */
+
+@import '/src/css/experiencia/experiencia.css';
