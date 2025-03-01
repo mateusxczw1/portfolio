@@ -1,48 +1,19 @@
-.experiencia {
-  display: none;
-}
-
-.experiencia.active {
-  display: flex;
-}
-
-.experiencia {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  flex-direction: column;
-  gap: 20px;
+.section {
+  background-color: var(--b1);
+  padding: 40px;
 }
 
 .experiencia-title {
-  font-size: 3rem;
-  font-family: 'Rubik';
+  color: var(--w0);
+  margin-bottom: 40px;
 }
 
 .experiencia-text {
+  color: var(--g0);
   font-size: 20px;
-  line-height: 1.3;
+  max-width: 50ch;
 }
 
-.experiencia-jobs {
-  margin-bottom: 20px;
-  background-color: var(--white1);
-  padding: 20px;
-  border-radius: 8px;
-  display: grid;
-  gap: 10px 20px;
-}
-
-.experiencia-jobs h3 {
-  font-size: 18px;
-  font-weight: bold;
-}
-
-.experiencia-jobs p {
-  font-size: 14px;
-}
-
-.experiencia-jobs h3::after {
-  content: ' - Desenvolvedor';
-  color: var(--white2);
+.experiencia-text strong {
+  color: var(--w0);
 }

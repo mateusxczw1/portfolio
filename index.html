@@ -8,7 +8,7 @@
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="src/imgs/logo.svg" type="svg/xml+" />
-    <link rel="stylesheet" href="/src/css/style.min.css" />
+    <link rel="stylesheet" href="/src/css/style.css" />
     <title>Mateus - Dev</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -18,152 +18,47 @@
     />
   </head>
   <body>
-    <div class="brand">
-      <img
-        class="bounce"
-        src="src/imgs/logo.svg"
-        alt="Logo"
-        width="50"
-        height="50"
-      />
-    </div>
-
-    <header class="header container">
-      <div class="header-buttons">
-        <button id="experiencia" class="experiencia-btn">Experiência</button>
-        <button id="formacao" class="formacao-btn">Formação</button>
-        <!-- <button id="contato">Contato</button> -->
-      </div>
-      <div class="header-intro">
-        <main class="perfil">
-          <h1 class="header-title anime-text">
-            I'm <br />
-            Mateus
-          </h1>
-          <p class="header-text anime-text">
-            Front End & <br />
-            UI / UX Design
-          </p>
-          <span class="header-region">Belford Roxo, RJ</span>
-        </main>
-
-        <section class="experiencia tab-js">
-          <h2 class="experiencia-title">Experiência</h2>
-          <p class="experiencia-text">
-            Desenvolvo pequenos projetos como o Bikcraft utilizando
-            apenas<strong> HTML</strong>,<strong> CSS</strong> e<strong>
-              Javascript</strong
-            >. Para aplicativos web como a rede social Dogs eu trabalhei
-            no<strong> UX</strong> e<strong> UI Design</strong> do projeto.
-          </p>
-
-          <ul class="experiencia-list">
-            <li class="experiencia-jobs">
-              <h3>Bikcraft</h3>
-              <p>
-                No projeto Bikcraft eu trabalhei no desenvolvimento completo do
-                HTML, CSS e JavaScript do site. Além disso, também prestei
-                consultoria no Design.
-              </p>
-            </li>
-
-            <li class="experiencia-jobs">
-              <h3>Surfbot</h3>
-              <p>
-                Surfbot é uma empresa que oferece aulas de surf no Rio de
-                Janeiro. O projeto foi feito com HTML, CSS e JavaScript. Todo o
-                projeto foi feito do zero.
-              </p>
-            </li>
-          </ul>
-        </section>
-        <section class="formacao tab-js" id="formacao" aria-label="Formação">
-          <div class="formacao-container">
-            <h2 class="experiencia-title">Formação</h2>
-
-            <div>
-              <ul class="faculdade-lista">
-                <li class="faculdade">
-                  <span class="faculdade-tipo">Bacharel</span>
-                  <h3 class="faculdade-curso">Análise e Desenvolvimento</h3>
-                  <span class="faculdade-instituicao">UFRJ</span>
-                </li>
-
-                <li class="faculdade">
-                  <span class="faculdade-tipo">Tecnólogo</span>
-                  <h3 class="faculdade-curso">Design Digital</h3>
-                  <span class="faculdade-instituicao">Origamid</span>
-                </li>
-
-                <li class="faculdade">
-                  <span class="faculdade-tipo">MESTRE</span>
-                  <h3 class="faculdade-curso">User Experience Design</h3>
-                  <span class="faculdade-instituicao">UFRJ</span>
-                </li>
-              </ul>
-
-              <div class="formacao-extra">
-                <div class="cursos">
-                  <h3>Cursos Instensivos</h3>
-                  <ul>
-                    <li>
-                      UX Design & Ui Design
-                      <span>56h</span>
-                    </li>
-
-                    <li>
-                      Front End para Iniciantes
-                      <span>72h</span>
-                    </li>
-                  </ul>
-                </div>
-
-                <div class="idiomas">
-                  <h3>Idiomas</h3>
-                  <ul>
-                    <li>
-                      Inglês
-                      <span>/ Fluente</span>
-                    </li>
-
-                    <li>
-                      Português
-                      <span>/ Fluente</span>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-      </div>
-      <footer class="footer">
-        <p>Mateus. Alguns Direitos Reservados</p>
-        <ul class="redes">
-          <li>
-            <a href="https://github.com/mateusxczw1" target="_blank">
-              <img
-                src="src/imgs/github.png"
-                width="40"
-                height="40"
-                alt="Github"
-              />
-            </a>
-          </li>
-          <li>
-            <a href="www.linkedin.com/in/mateuscardozodev1 " target="_blank">
-              <img
-                src="src/imgs/linkedin.png"
-                width="40"
-                height="40"
-                alt="Linkedin"
-              />
-            </a>
-          </li>
+    <header class="header">
+      <nav class="container" aria-label="Principal">
+        <ul class="header-menu">
+          <li><a href="#experiencia">Experiência</a></li>
+          <li><a href="#formacao">Formação</a></li>
+          <li><a href="#contato">Contato</a></li>
         </ul>
-      </footer>
+      </nav>
     </header>
 
-    <script src="src/js/script.js"></script>
+    <main class="main-bg">
+      <div class="container main">
+        <div>
+          <span class="main-profile anime rubik"
+            >i'm, <span class="break">Mateus.</span></span
+          >
+          <h1 class="main-title anime rubik">
+            Front End & <span class="break">UI / UX Design</span>
+          </h1>
+          <span class="main-region rubik">Belford Roxo, RJ.</span>
+        </div>
+        <div class="main-img">
+          <img src="src/img/undraw_multiple-choice_9n00.svg" alt="Ilustração" />
+        </div>
+      </div>
+    </main>
+
+    <section class="section" aria-label="Experiência">
+      <div id="experiencia" class="experiencia container">
+        <div class="experiencia-content">
+          <h2 class="experiencia-title rubik">Experiência</h2>
+          <p class="experiencia-text">
+            Desenvolvo pequenos projetos como o Bikcraft utilizando apenas
+            <strong>HTML</strong>, <strong>CSS</strong> e
+            <strong>Javascript</strong>. Para aplicativos web como a rede social
+            Dogs eu trabalhei no<strong> UX</strong> e
+            <strong>UI Design</strong> do projeto.
+          </p>
+        </div>
+        <div class="experiencia-jobs"></div>
+      </div>
+    </section>
   </body>
 </html>

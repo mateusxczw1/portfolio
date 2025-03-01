@@ -1,46 +1,28 @@
-.header-buttons {
+.header-menu {
   display: flex;
-  gap: 40px;
   flex-wrap: wrap;
-  justify-items: center;
-  writing-mode: sideways-lr;
+  justify-content: center;
+  gap: 20px;
 }
 
-.header {
-  display: grid;
-  grid-template-columns: auto 2fr;
-  gap: 50px;
-}
-
-.header-title,
-.header-text {
-  font-size: 4rem;
-  font-family: 'Rubik';
+.header-menu a {
+  font-size: 20px;
   font-weight: bold;
-  color: var(--white2);
-  line-height: 1.2;
-  margin-bottom: 20px;
+  font-family: 'Rubik', serif;
 }
 
-.header-text {
-  color: var(--white0);
-}
+@media (width <= 500px) {
+  .header-menu a {
+    font-size: 16px;
+    padding: 10px 20px;
+    display: block;
+    background-color: var(--g1);
+    border-radius: 4px;
+  }
 
-.header-region {
-  font-size: 1.25rem;
-  font-family: 'Rubik';
-  font-weight: bold;
-  color: var(--white2);
-}
-
-.header-intro {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  gap: 40px;
-}
-
-.perfil {
-  background-color: var(--black0);
-  padding: 60px;
-  border-radius: 8px;
+  .header-menu {
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+  }
 }

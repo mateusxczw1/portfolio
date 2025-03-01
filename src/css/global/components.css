@@ -1,0 +1,11 @@
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+.rubik {
+  font-family: 'Rubik', serif;
+  font-weight: bold;
+  font-size: 4rem;
+}
