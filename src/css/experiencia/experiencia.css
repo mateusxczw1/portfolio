@@ -17,3 +17,59 @@
 .experiencia-text strong {
   color: var(--w0);
 }
+
+.experiencia {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 100px;
+}
+
+.empresa {
+  display: grid;
+  gap: 5px 10px;
+  background-color: var(--b0);
+  color: var(--w0);
+  padding: 40px;
+  border-radius: 8px;
+  position: relative;
+}
+
+.empresa::before {
+  content: '';
+  display: block;
+  width: 4px;
+  height: 100%;
+  background-color: var(--g0);
+  position: absolute;
+}
+
+.empresa-title {
+  font-family: 'Rubik', serif;
+  font-size: 20px;
+}
+
+.empresa-text {
+  max-width: 40ch;
+  color: var(--g0);
+  font-size: 16px;
+}
+
+.empresa-habilidades {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.empresa-habilidades li {
+  background-color: var(--b1);
+  padding: 10px 20px;
+  display: block;
+  border-radius: 4px;
+}
+
+.empresa-jobs {
+  display: grid;
+  gap: 20px;
+}
