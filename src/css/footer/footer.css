@@ -20,3 +20,30 @@
   display: flex;
   gap: 40px;
 }
+
+@media (width <= 800px) {
+  .footer-info {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    justify-items: center;
+    gap: 20px;
+  }
+}
+
+@media (width <= 600px) {
+  .copy {
+    /* grid-column: 1/ -1; */
+    font-size: 16px;
+  }
+
+  .redes {
+    place-self: center;
+    gap: 10px;
+  }
+
+  .redes img {
+    width: 20px;
+    height: 20px;
+  }
+}

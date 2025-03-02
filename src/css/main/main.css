@@ -54,15 +54,9 @@
 @media (width <= 800px) {
   .main-profile,
   .main-title {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
   }
   .main-img img {
     display: none;
-  }
-}
-
-@media (width <= 400px) {
-  .break {
-    max-width: max-content;
   }
 }
