@@ -1,0 +1,22 @@
+.footer {
+  background-color: var(--g1);
+  padding: 40px;
+  color: var(--b1);
+}
+
+.copy {
+  font-size: 20px;
+}
+
+.footer-info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 100px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.redes {
+  display: flex;
+  gap: 40px;
+}
