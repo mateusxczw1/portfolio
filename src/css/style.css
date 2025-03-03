@@ -18,6 +18,10 @@
 
 @import './experiencia/experiencia.css';
 
+/* Formação */
+
+@import './formacao/formacao.css';
+
 /* Footer */
 
 @import './footer/footer.css';
